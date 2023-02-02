@@ -1,0 +1,34 @@
+
+.parent{
+    width: 1200px;
+    height: auto;
+     margin: auto;
+     margin-top: 50px;
+}
+.image{
+    height: 280px;
+    width: 220px;
+    border-radius: 10px;
+}
+.card1{
+    height: 450px;
+    width: 250px;
+    border: 1px solid grey;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+box-shadow: 7px 7px 7px wheat, -7px -7px 7px wheat;
+
+
+}
+.card1:hover{
+    box-shadow: none;
+    transition: 0.2s;
+
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    color: grey;
+}
